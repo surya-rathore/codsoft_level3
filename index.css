@@ -1,0 +1,415 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: inline;
+}
+
+/* containar1 */
+.containar1{
+    width:100%;
+    height:100Vh;
+}
+/* end containar */
+
+/* navbar1 */
+.navbar1{
+    display:flex;
+    background-color:rgb(237, 207, 212) ;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.search input{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 600px;
+    height:35px;
+    border-radius: 20px;
+}
+
+.logo img{
+    width: 80px;
+    height:80px;
+}
+.menu ul{
+    list-style-type: none;
+    margin-left: 100px;
+    display: flex;
+}
+.menu ul li{
+    padding-left: 100px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+/* end navbar1 */
+
+/* navbar2 */
+.navbar2 ul{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    list-style-type: none;
+    display: flex;
+}
+.navbar2 ul li{
+    font-size: 25px;
+    margin-top: 30px;
+    padding-left: 100px;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+}
+/* End navbar2 */
+
+/* video */
+.main_img{
+    margin-top: -600px;
+    width: 100%;
+    height:100vh;
+}
+/* end video */
+#video{
+    margin-left: 150px;
+    width: 80%;
+    height: 80vh;
+}
+
+
+.main{
+    padding-left:20px;
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    grid-template-columns:350px 350px 350px 350px;
+    grid-template-rows: 450px 450px 450px 450px;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+.card1{
+    margin-left: 20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.card1 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+
+}
+.card1 img:hover{
+    transform: scale(1.02);
+
+}
+/* .card2 img:hover{
+    transform: scale(1.02);
+}
+.card3 img:hover{
+    transform: scale(1.02);
+}
+.card2{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+
+}
+.card2 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card3{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card3 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card4{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card4 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card4 img:hover{
+    transform: scale(1.02);
+}
+.card5{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card5 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card5 img:hover{
+    transform: scale(1.02);
+}
+.card6{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card6 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card6 img:hover{
+    transform: scale(1.02);
+}
+.card7{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card7 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card7 img:hover{
+    transform: scale(1.02);
+}
+.card8{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card8 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card8 img:hover{
+    transform: scale(1.02);
+}
+.card9{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card9 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card9 img:hover{
+    transform: scale(1.02);
+}
+.card10{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card10 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card10 img:hover{
+    transform: scale(1.02);
+}
+.card11{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card11 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card11 img:hover{
+    transform: scale(1.02);
+}
+.card12{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card12 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card12 img:hover{
+    transform: scale(1.02);
+}
+.card13{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card13 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card13 img:hover{
+    transform: scale(1.02);
+}
+.card14{
+    margin-left:20px;
+    box-shadow: 0 0 40px rgb(204, 151, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+
+
+} 
+.card14 img{
+    width:100%;
+    height:80%;
+    border-radius: 20px;
+
+}
+.card14 img:hover{
+    transform: scale(1.02);
+} */
+
+
+
+
+
+/* footer */
+
+.footer{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns:400px 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px 400px;
+    margin-top:100%;
+    width:100%;
+    height:500px;
+    background-color: rgb(174, 99, 112);
+}
+.scaner{
+    margin-top: 100px;
+    margin-left:100px;
+    width: 200px;
+    height: 200px;
+}
+.scaner img{
+    width:200px;
+    height:200px;
+    color: black;
+}
+.Useful_Links{
+    margin-left: 50px;
+    font-size: 25px;
+    
+}
+.Useful_Links ul {
+    list-style-type: none;
+}
+.Useful_Links li a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    margin-left: 100px;
+    font-size: 25px;
+}
+.contact ul{
+    list-style-type: none;
+}
+.contact li a{
+    text-decoration: none;
+    color: black;
+
+}
+.Introduction{
+    margin-left: 100px;
+    font-size: 25px;
+}
+.Introduction ul{
+list-style-type: none;
+}
+.Introduction li a{
+    text-decoration: none;
+    color: black;
+}
+.container2{
+    color: black;
+}
